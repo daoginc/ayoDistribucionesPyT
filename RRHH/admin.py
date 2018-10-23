@@ -4,9 +4,9 @@ from RRHH.models import EmpleadoCargo
 from RRHH.models import Organigrama
 from RRHH.models import Empleado
 
-admin.site.site_header = "NEW ANGEL administrador"
-admin.site.site_title = "New Angel Portal administrativo"
-admin.site.index_title = "New Angel Admin"
+admin.site.site_header = "DISTRIBUCIONES PYT administrador"
+admin.site.site_title = "Distribuciones PyT Portal administrativo"
+admin.site.index_title = "Distribuciones PyT Admin"
 
 from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
